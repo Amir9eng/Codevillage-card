@@ -143,25 +143,35 @@ footer {
     height: 50%;
     display: flex;
     align-items: center;
-    justify-content: center;
-    padding: 1rem;
+    justify-content: space-between;
 }
 
 .image-container {
+    width: 100%;
     display: flex;
-    align-items: flex-start;
-    flex-direction: column;
+    align-items: center;
 }
 
 .phone,
 .mail,
-.home {
+.address {
     margin-top: 2rem;
-    width: 2rem;
-    height: 2rem;
+    width: 1rem;
+    height: 1rem;
+    font-size: .5rem;
+    color: white;
 }
 
+
+/* .line {
+    width: .7rem;
+    height: 100%;
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+    background-color: white;
+} */
+
 .qr-code {
-    width: 5rem;
-    height: 4rem;
+    width: 3rem;
+    height: 3rem;
 }
