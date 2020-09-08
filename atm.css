@@ -137,3 +137,31 @@ img {
     width: 11rem;
     height: 5rem;
 }
+
+footer {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.image-container {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.phone,
+.mail,
+.home {
+    margin-top: 2rem;
+    width: 2rem;
+    height: 2rem;
+}
+
+.qr-code {
+    width: 5rem;
+    height: 4rem;
+}
